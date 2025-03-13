@@ -1,4 +1,4 @@
-# Building and Automating a ETL Pipeline with Apache Airflow on AWS EC2
+# Automated ETL Pipeline with Apache Airflow on AWS EC2
 
 ## Overview
 This project demonstrates a Python-based ETL pipeline using Apache Airflow on an AWS EC2 instance. The pipeline extracts Philadelphia weather data using Open Weather API, transforms it using pandas, and loads transformed data into Amazon S3 buckets. Upon arrival in S3, AWS Crawlers is triggered to load the transformed data into a data warehouse table using AWS Glue. Finally, AWS Athena is utilized to query and derive insights from the data. Apache Airflow orchestrates and automates this entire process.
